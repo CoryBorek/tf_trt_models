@@ -35,4 +35,4 @@ popd
 
 echo "Installing tf_trt_models"
 echo $PWD
-$PYTHON setup.py install --user
+$PYTHON setup.py build && $PYTHON setup.py install
